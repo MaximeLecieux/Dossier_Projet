@@ -16,13 +16,18 @@ h1{
 h2{
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 200;
+    text-decoration: underline;
 }
 
 li{
     font-family: 'Dancing Script', sans-serif;
-    font-size: 2em;
+    font-size: 1.2em;
+    list-style: none;
 }
 
+.link-decoration{
+    font-size: 2em;
+}
 .link-decoration:hover{
     border-bottom: solid #FFFF 3px;
 }
@@ -31,4 +36,11 @@ p{
     font-family: 'Dancing Script', sans-serif;
     font-weight: 400;
     font-size: 1.5em;
+}
+
+.presentation-text{
+    background: #415A77;
+    color: #FFFF;
+    text-align: center;
+    border: solid #DA6464 10px;
 }
