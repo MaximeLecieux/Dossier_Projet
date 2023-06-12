@@ -23,6 +23,10 @@ li{
     font-size: 2em;
 }
 
+.link-decoration:hover{
+    border-bottom: solid #FFFF 3px;
+}
+
 p{
     font-family: 'Dancing Script', sans-serif;
     font-weight: 400;
